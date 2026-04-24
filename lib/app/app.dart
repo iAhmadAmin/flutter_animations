@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../core/theme/app_theme.dart';
-import 'router.dart';
+import 'package:flutter_animations/app/router.dart';
 
 class FlutterAnimationsApp extends StatelessWidget {
   const FlutterAnimationsApp({super.key});
@@ -11,9 +9,8 @@ class FlutterAnimationsApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Animations',
       debugShowCheckedModeBanner: false,
-      theme: AppTheme.light(),
       onGenerateRoute: AppRouter.onGenerateRoute,
-      initialRoute: AppRouter.homeRoute,
+      initialRoute: AppRouter.homeRouter,
     );
   }
 }
