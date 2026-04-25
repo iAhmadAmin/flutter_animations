@@ -12,6 +12,7 @@ class HomeScreen extends StatelessWidget {
       title: 'Magic Wand Reveal',
       description: 'A reveal effect that follows the user\'s finger.',
       routeName: AppRouter.magicWandRevealRoute,
+      gifName: 'magicWandReveal.gif',
     ),
   ];
 
