@@ -9,9 +9,6 @@ lib/
   app/
     app.dart
     router.dart
-  core/
-    theme/
-    widgets/
   features/
     home/
       models/
@@ -28,6 +25,10 @@ lib/
 4. Add a `DemoItem` entry in `lib/features/home/views/home_screen.dart`.
 5. Update this README when you publish the demo.
 
-## Current Demo
+## Animations Gallery
 
-- `Magic Wand Reveal`: 
+### Magic Wand Reveal
+
+![Magic Wand Reveal](assets/gifs/magicWandReveal.gif)
+
+[View Source Code](lib/demos/magic_wand_reveal/widget.dart)
