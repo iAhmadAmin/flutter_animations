@@ -27,8 +27,17 @@ lib/
 
 ## Animations Gallery
 
-### Magic Wand Reveal
-
-![Magic Wand Reveal](assets/gifs/magicWandReveal.gif)
-
-[View Source Code](lib/demos/magic_wand_reveal/widget.dart)
+<table>
+  <tr>
+    <td align="center" width="300">
+      <strong>Magic Wand Reveal</strong><br/><br/>
+      <img src="assets/gifs/magicWandReveal.gif" alt="Magic Wand Reveal" width="260"/><br/><br/>
+      <a href="lib/demos/magic_wand_reveal/widget.dart">View Source</a>
+    </td>
+    <td align="center" width="300">
+      <strong>Mood Interaction</strong><br/><br/>
+      <img src="assets/gifs/moodInteraction.gif" alt="Mood Interaction" width="260"/><br/><br/>
+      <a href="lib/demos/mood_interaction/">View Source</a>
+    </td>
+  </tr>
+</table>

@@ -14,6 +14,13 @@ class HomeScreen extends StatelessWidget {
       routeName: AppRouter.magicWandRevealRoute,
       gifName: 'magicWandReveal.gif',
     ),
+    DemoItem(
+      title: 'Mood Interaction',
+      description:
+          'An animated emoji that reacts to your mood with color and expression changes.',
+      routeName: AppRouter.moodInteractionRoute,
+      gifName: 'moodInteraction.gif',
+    ),
   ];
 
   @override
